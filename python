@@ -1,0 +1,11 @@
+a=[ "orange","green apple","mango"]
+print(len(a))
+print(a)
+a.append("strawberry")
+print(a)
+a.insert(2,"guava")
+print(a)
+a.remove("orange")
+print(a)
+del a[0:1]
+print(a)
